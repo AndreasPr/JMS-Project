@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-        
+
         <!--Artemis dependencies-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
