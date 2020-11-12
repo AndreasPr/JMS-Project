@@ -13,6 +13,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "my-hello-world";
+    public static final String MY_SEND_RESPONSE_QUEUE = "replyToMe";
 
     // It enables the Spring instance to take the JMS messages and flip those to
     // a JSON message and then can read that JMS message as a JMS text message and convert it back to JAVA Object
