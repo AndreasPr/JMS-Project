@@ -12,6 +12,8 @@ import org.springframework.jms.support.converter.MessageType;
 @Configuration
 public class JmsConfig {
 
+    // It enables the Spring instance to take the JMS messages and flip those to
+    // a JSON message and then can read that JMS message as a JMS text message and convert it back to JAVA Object
     @Bean
     public MessageConverter messageConverter(){
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
